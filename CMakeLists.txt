@@ -39,8 +39,8 @@ include_directories(
 # Настройка путей к библиотекам
 link_directories(
     ${MYSQL_ROOT}/lib/x86_64-linux-gnu
-    ${GTEST_ROOT}/lib
-    ${GMOCK_ROOT}/lib
+    ${GTEST_ROOT}/lib/x86_64-linux-gnu
+    ${GMOCK_ROOT}/lib/x86_64-linux-gnu
 )
 endif()
 
